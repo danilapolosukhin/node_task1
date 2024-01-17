@@ -1,96 +1,100 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #62ed52;
+    background-color: #f0f0f0; /* Изменен цвет фона */
     margin: 0;
     padding: 0;
 }
+
 /* Стили для статей */
 #articleTitle {
-    border: 2px solid #e74c3c; 
+    border: 2px solid #2ecc71; /* Изменен цвет границы */
     padding: 10px;
     margin-bottom: 10px;
     font-weight: bold;
     text-align: center;
 }
+
 #articlesTitle {
     padding: 10px;
     margin-bottom: 10px;
     font-weight: bold;
     text-align: center;
 }
+
 #articlesDescription {
     padding: 10px;
     margin-bottom: 10px;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 20px; /* Изменены отступы границы */
+    margin-left: 20px;  /* Изменены отступы границы */
     text-align: justify;
 }
+
 #articleContent {
     padding: 10px;
     margin-top: 10px;
 }
+
 #articleText {
-    border: 2px solid #3498db;
+    border: 2px solid #2980b9; /* Изменен цвет границы */
     padding: 10px;
     margin-top: 10px;
 }
+
 /* Стили новостей */
 /* public/css/style.css */
 
 /* Стили для списка новостей (newsList.ejs) */
-
 #newsTitle {
     font-size: 1.5em;
     font-weight: bold;
-    color: #333;
+    color: #555; /* Изменен цвет текста */
 }
 
 #newsDescription {
-    color: #555;
+    color: #777; /* Изменен цвет текста */
 }
 
 /* Стили для полного просмотра новости (newsDetail.ejs) */
 #newsText {
     font-size: 1.2em;
     line-height: 1.6;
-    color: #333;
-    max-width: 800px; /* Ограничиваем ширину текста до 800px */
-    margin: 0 auto; /* Центрируем текст по горизонтали */
+    color: #555; /* Изменен цвет текста */
+    max-width: 800px;
+    margin: 0 auto;
 }
+
 #newsDTitle {
     font-size: 1.5em;
     font-weight: bold;
-    color: #333;
+    color: #555; /* Изменен цвет текста */
     text-align: center;
 }
 
 /* Стили для форм добавления и редактирования статьи */
 .form {
     margin-top: 20px;
-    border: 5px solid #a2df99;
+    border: 5px solid #27ae60; /* Изменен цвет границы */
     padding: 20px;
-    
 }
 
 .form label {
     display: block;
-    margin-bottom: 5px;
-
+    margin-bottom: 10px; /* Изменен отступ метки */
 }
 
 .form input,
 .form textarea {
     width: calc(100% - 20px);
     padding: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 15px; /* Изменен отступ поля ввода */
     box-sizing: border-box;
-    border: 3px solid #e74c3c; 
+    border: 3px solid #e67e22; /* Изменен цвет границы */
 }
 
 .form button {
-    background-color: #4caf50;
+    background-color: #2ecc71; /* Изменен цвет фона кнопки */
     color: #fff;
-    padding: 10px;
-    border: 3px solid #e74c3c; 
+    padding: 12px; /* Изменен отступ кнопки */
+    border: 3px solid #c0392b; /* Изменен цвет границы */
     cursor: pointer;
 }
