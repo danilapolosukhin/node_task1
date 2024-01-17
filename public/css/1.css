@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0; /* Изменен цвет фона */
+    background-image: linear-gradient(green,yellow,pink); /* Изменен цвет фона */
     margin: 0;
     padding: 0;
 }
@@ -27,6 +27,7 @@ body {
     margin-right: 20px; /* Изменены отступы границы */
     margin-left: 20px;  /* Изменены отступы границы */
     text-align: justify;
+    font-size: 30px;
 }
 
 #articleContent {
@@ -84,17 +85,24 @@ body {
 
 .form input,
 .form textarea {
-    width: calc(100% - 20px);
+    width: calc(100% - 500px);
     padding: 8px;
     margin-bottom: 15px; /* Изменен отступ поля ввода */
     box-sizing: border-box;
-    border: 3px solid #e67e22; /* Изменен цвет границы */
+    border: 3px solid #9d2bc0; /* Изменен цвет границы */
 }
 
 .form button {
-    background-color: #2ecc71; /* Изменен цвет фона кнопки */
-    color: #fff;
+    background-color: #2ecc3b; /* Изменен цвет фона кнопки */
+    color: #110c0c;
     padding: 12px; /* Изменен отступ кнопки */
-    border: 3px solid #c0392b; /* Изменен цвет границы */
+    border: 3px solid #9d2bc0; /* Изменен цвет границы */
     cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+    background-color: #c0392b;
+    font-size: 20px;
 }
